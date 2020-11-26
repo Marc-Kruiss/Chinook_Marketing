@@ -1,5 +1,10 @@
 # Chinook_Marketing
 
+## Lernziele
+In dieser Übung lerne ich:
+* Wie LINQ für Abfragen angewendet wird.
+* Wie csv-Daten in Objekten transformiert werden (DataExtensions).
+
 ## Aufgabenstellung
 Chinook ist ein Media-Store mit dem Ziel, seinen Kunden den bestmöglichen Service zu bieten. Um
 die Dienste an den Kunden entsprechend anzupassen, benötigt die Marketing Abteilung
