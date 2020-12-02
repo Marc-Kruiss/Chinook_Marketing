@@ -22,7 +22,7 @@ namespace Chinook.Logic
             var result = CsvHelper.Read<Models.Persistence.Artist>();
             return result;
         }
-        public static IEnumerable<Contracts.Persistence.ICustomer> GetAllCustomer()
+        public static IEnumerable<Contracts.Persistence.ICustomer> GetAllCustomers()
         {
             var result = CsvHelper.Read<Models.Persistence.Customer>();
             return result;

@@ -52,7 +52,7 @@ namespace Chinook.Logic
         public static (double richestCustomer, double poorestCustomer) GetCustomerStats()
         {
             var invoices = Logic.Factory.GetAllInvoices();
-            var customers = Logic.Factory.GetAllCustomer();
+            var customers = Logic.Factory.GetAllCustomers();
             // Kunden Auswertung
             var customer_Invoice = customers.Join(invoices, customer => customer.Id, invoice => invoice.Customerid, (customer, invoice) => new { customerName = customer.FirstName + " " + customer.LastName, total = invoice.Total }).GroupBy(t => t.customerName).Select(s => (s.Key, s.Sum(g => g.total))).OrderByDescending(t => t.Item2);
             var richestCustomer = customer_Invoice.Where(t => t.Item2 == customer_Invoice.First().Item2).FirstOrDefault();

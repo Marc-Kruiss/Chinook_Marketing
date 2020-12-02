@@ -1,10 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
+﻿
 namespace Chinook.Report.Marketing.Models
 {
-    class ArtistStatistic
-    {
-    }
+	internal class ArtistStatistic : Contracts.Report.Marketing.IArtistStatistic
+	{
+		public string Name { get; set; }
+
+		public int AlbumCount { get; set; }
+	}
 }

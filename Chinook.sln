@@ -22,6 +22,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chinook.WebAPI", "Chinook.WebApi\Chinook.WebAPI.csproj", "{F72AEC64-2FE4-436C-AB30-CD03BB0B5531}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -52,6 +54,10 @@ Global
 		{33487025-0B9F-4328-A579-A5DD0967CC17}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33487025-0B9F-4328-A579-A5DD0967CC17}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33487025-0B9F-4328-A579-A5DD0967CC17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F72AEC64-2FE4-436C-AB30-CD03BB0B5531}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F72AEC64-2FE4-436C-AB30-CD03BB0B5531}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F72AEC64-2FE4-436C-AB30-CD03BB0B5531}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F72AEC64-2FE4-436C-AB30-CD03BB0B5531}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
